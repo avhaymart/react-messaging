@@ -3,8 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  console.log("express requested")
-  res.render('index', { title: 'Express' });
+  res.sendFile(path.join(__dirname+'/client/build/index.html'));
 });
 
 router.get("/asdf", function(req, res, next) {
