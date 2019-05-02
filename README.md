@@ -1,5 +1,5 @@
 # react-messaging
-![React Messaging](https://i.ibb.co/MVFrZp3/Screenshot-from-2019-05-02-13-34-04.png)
+![React Messaging](https://i.ibb.co/QmqXSt4/Screenshot-from-2019-05-02-13-34-04.png)
 
 * Team Members
    * Avonlea Haymart
