@@ -38,4 +38,8 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+app.use('*', function(req, res, next) {
+  res.sendFile(path.join(__dirname+'/client/build/index.html'));
+});
+
 module.exports = app;
