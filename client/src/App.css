@@ -1,0 +1,9 @@
+.extend-width {
+    width:100%;
+}  
+
+.flexbox-max-height-center {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
